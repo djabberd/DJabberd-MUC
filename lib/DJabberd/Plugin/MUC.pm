@@ -7,6 +7,7 @@ use Carp;
 use DJabberd::Plugin::MUC::Room;
 our $logger = DJabberd::Log->get_logger();
 
+our $VERSION = "0.10";
 
 sub set_config_subdomain {
     my ($self, $subdomain ) = @_;
@@ -226,3 +227,10 @@ sub get_room {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+DJabberd::Plugin::MUC - Multi User Chat Plugin
+
