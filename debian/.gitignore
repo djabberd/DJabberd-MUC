@@ -1,0 +1,6 @@
+tmp/
+libdjabberd-plugin-muc-perl/
+*.debhelper
+*.debhelper.log
+*.substvars
+files
